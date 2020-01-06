@@ -10,6 +10,7 @@ border: none;
     color: black;
     border: 1px solid black;
   }
+
 `;
 
 const invertedButtonStyles = css`
@@ -64,6 +65,14 @@ justify-content: center;
   background-color: white;
   color: black;
   border: 1px solid black;
+}
+
+@media screen and (max-width: 800px) {
+  min-width: unset;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  margin: 0px 10px 20px 0;
 }
 
 ${getButtonStyles}
